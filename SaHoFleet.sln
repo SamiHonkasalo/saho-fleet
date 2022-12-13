@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.DeviceBroker", "SaHoFleet.DeviceBroker\SaHoFleet.DeviceBroker.csproj", "{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.FleetManager", "SaHoFleet.FleetManager\SaHoFleet.FleetManager.csproj", "{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.API", "SaHoFleet.API\SaHoFleet.API.csproj", "{52D4A16D-A63D-4841-A76B-F5979C5281CF}"
 EndProject
