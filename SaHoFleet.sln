@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.DeviceBroker", "SaHoFleet.DeviceBroker\SaHoFleet.DeviceBroker.csproj", "{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.API", "SaHoFleet.API\SaHoFleet.API.csproj", "{52D4A16D-A63D-4841-A76B-F5979C5281CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.DB", "SaHoFleet.DB\SaHoFleet.DB.csproj", "{CD543C5E-1DBF-4264-B7A3-800AA9E8DFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.Simulator", "SaHoFleet.Simulator\SaHoFleet.Simulator.csproj", "{70D54898-CD09-4BBE-9C28-A84C1ABA06A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12FD5F1-0D3A-4815-ABD8-C244462D42AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D4A16D-A63D-4841-A76B-F5979C5281CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D4A16D-A63D-4841-A76B-F5979C5281CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D4A16D-A63D-4841-A76B-F5979C5281CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D4A16D-A63D-4841-A76B-F5979C5281CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD543C5E-1DBF-4264-B7A3-800AA9E8DFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD543C5E-1DBF-4264-B7A3-800AA9E8DFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD543C5E-1DBF-4264-B7A3-800AA9E8DFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD543C5E-1DBF-4264-B7A3-800AA9E8DFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D54898-CD09-4BBE-9C28-A84C1ABA06A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D54898-CD09-4BBE-9C28-A84C1ABA06A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D54898-CD09-4BBE-9C28-A84C1ABA06A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D54898-CD09-4BBE-9C28-A84C1ABA06A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
