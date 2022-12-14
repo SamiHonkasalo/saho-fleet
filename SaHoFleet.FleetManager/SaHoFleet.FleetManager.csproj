@@ -11,7 +11,12 @@
       <PackageReference Include="Akka.DependencyInjection" Version="1.4.47" />
       <PackageReference Include="Akka.Logger.NLog" Version="1.4.10" />
       <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
+      <PackageReference Include="MQTTnet.AspNetCore" Version="4.1.4.563" />
       <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SaHoFleet.MQTT\SaHoFleet.MQTT.csproj" />
     </ItemGroup>
 
 </Project>

@@ -30,8 +30,9 @@ public class AkkaService : IHostedService
         var actorSystemSetup = bootstrap.And(diSetup);
         // start ActorSystem
         _actorSystem = ActorSystem.Create("DeviceBrokerSystem", actorSystemSetup);
-        var deviceBroker = _actorSystem.ActorOf(DeviceBroker.Prop(), "DeviceBroker");
-        deviceBroker.Tell(new StartBroker());
+        var brokerProps = DependencyResolver.For(_actorSystem).Props<DeviceBroker>();
+        var deviceBroker = _actorSystem.ActorOf(brokerProps, "DeviceBroker");
+        deviceBroker.Tell(new DeviceBroker.Start());
 
         _actorSystem.WhenTerminated.ContinueWith(_ => { _lifetime.StopApplication(); }, cancellationToken);
         return Task.CompletedTask;
