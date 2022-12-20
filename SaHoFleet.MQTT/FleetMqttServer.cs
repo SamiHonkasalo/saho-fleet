@@ -36,6 +36,7 @@ public class FleetMqttServer : IAsyncDisposable
         }
     }
 
+    // TODO: Move this to a separata ValidatorActor
     private Task ValidateConnectionAsync(ValidatingConnectionEventArgs args)
     {
         _logger.LogDebug("Validating connection for client ID {id}", args.ClientId);

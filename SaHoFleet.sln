@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.Simulator", "SaHo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.MQTT", "SaHoFleet.MQTT\SaHoFleet.MQTT.csproj", "{483E7BEC-2E24-434F-AD77-217A38F65BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaHoFleet.Models", "SaHoFleet.Models\SaHoFleet.Models.csproj", "{224C5526-410A-41B2-AAC5-86B68AA7928E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{483E7BEC-2E24-434F-AD77-217A38F65BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{483E7BEC-2E24-434F-AD77-217A38F65BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{483E7BEC-2E24-434F-AD77-217A38F65BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224C5526-410A-41B2-AAC5-86B68AA7928E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224C5526-410A-41B2-AAC5-86B68AA7928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224C5526-410A-41B2-AAC5-86B68AA7928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224C5526-410A-41B2-AAC5-86B68AA7928E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

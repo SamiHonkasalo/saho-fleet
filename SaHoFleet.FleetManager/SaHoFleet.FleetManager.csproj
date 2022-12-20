@@ -17,6 +17,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SaHoFleet.MQTT\SaHoFleet.MQTT.csproj" />
+      <ProjectReference Include="..\SaHoFleet.Models\SaHoFleet.Models.csproj" />
     </ItemGroup>
 
 </Project>
